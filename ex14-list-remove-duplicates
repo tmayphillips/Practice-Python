@@ -1,0 +1,18 @@
+import random
+
+a = []
+b = []
+c = []
+
+while len(a) <= 15:
+    a.append(random.randint(0,20))
+
+for value in a:
+    if value in b:
+        next
+    else:
+        b.append(value)
+
+c = set(b)
+print(b)
+print(c)

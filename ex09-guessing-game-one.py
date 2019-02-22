@@ -1,7 +1,7 @@
 import random
 a = random.randint(1, 9)
 
-guess =(input("Enter a number between 1 and 9: "))
+guess = int(input("Enter a number between 1 and 9: "))
 count = 0
 win = False
 
